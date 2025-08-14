@@ -85,6 +85,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </>
