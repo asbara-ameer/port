@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Home from './components/Home'
 import Education from './components/Education'
-import Home from './components/home'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import About from './components/About'
