@@ -1,3 +1,4 @@
+import pic from '../../public/asbara.jpeg'
 function  About(){
     return(
         <>
@@ -6,7 +7,7 @@ function  About(){
         
         {/* Rounded Image */}
         <img
-          src="asbara.jpeg" // Replace with your image
+          src={pic}  // Replace with your image
           alt="Profile"
           className="w-40 h-40 rounded-full mx-auto mb-4 object-cover border-4 border-gray-700 shadow-md"
         />
